@@ -26,12 +26,14 @@
 }
 
 .display {
-    background-color: black; 
+    background-color: grey; 
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
-    place-items: center;  
+    place-items: center; 
+    /* align-self: flex-end;  */
+    
 }
 
 .seven {
